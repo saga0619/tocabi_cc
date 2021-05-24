@@ -107,7 +107,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES tocabi_cc
   CATKIN_DEPENDS tocabi_data tocabi_msgs
-  DEPENDS system_lib
+# DEPENDS system_lib
 )
 
 ###########
