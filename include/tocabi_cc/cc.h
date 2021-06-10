@@ -11,8 +11,11 @@ public:
     void computeSlow();
     void computeFast();
     void computePlanner();
-    
+    void copyRobotData(RobotData &rd_l);
+
     RobotData &rd_;
+    RobotData rd_cc_;
+
     //WholebodyController &wbc_;
     //TaskCommand tc;
 
