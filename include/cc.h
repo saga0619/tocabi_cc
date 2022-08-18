@@ -18,6 +18,9 @@ public:
     RobotData &rd_;
     RobotData rd_cc_;
 
+    ros::NodeHandle nh_cc_;
+    ros::CallbackQueue queue_cc_;
+
     //WholebodyController &wbc_;
     //TaskCommand tc;
 
